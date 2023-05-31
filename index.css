@@ -1,0 +1,160 @@
+body{
+    font-family: 'Macondo', cursive;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(128, 121, 121);
+}
+
+.header,.footer{
+    height:30vh;
+    background-image: url(./header_footer_bg_img.webp);
+    background-position: top;
+    color:  #256D85;
+    padding:20px 0px;
+    text-align: center;
+    border-radius:0px 30px;
+    font-size: 1.2rem;
+}
+
+.header_cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
+.material-symbols-outlined{
+    width: 50px;
+    padding: 10px;
+    border: 2px solid #256D85;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.home{
+    right:80px;
+    bottom: 30px;
+}
+.contact{
+    right: 25px;
+    bottom:30px;
+}
+
+.buttons{
+    text-decoration: none;
+    color: #256D85;
+}
+
+.buttons:hover{
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #256D85;
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+/* H1 */
+.info{
+    font-family:'Bree Serif', serif;
+    color: #06283D;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* Links */
+.links{
+    color: #256D85;
+    text-decoration: none;
+}
+
+.container{
+    padding: 10px;
+    /* display: flex; */
+}
+
+/* H2 */
+.sub_info{
+    font-family:'Bree Serif', serif;
+    color: #256D85;
+    font-size: 1.75rem;
+    margin-top: 10px;
+}
+
+.personal_info{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Img */
+.J_img{
+    height: 300px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    background-blend-mode:luminosity;
+    filter: drop-shadow(2px -1px 10px gold);
+}
+
+.sub_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+}
+/* Sub section */
+.sub_section{
+    margin: 5px;
+    padding: 10px;
+    background-color: #DFF6FF;
+    border-radius: 20px;
+}
+
+.skills_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* footer */
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-variant: small-caps;
+    text-align: left;
+    padding: 15px;
+    height: 35vh;
+} 
+
+h3{
+    text-decoration:underline;
+    font-family:'Bree Serif', serif;
+}
+
+.msg-box{
+    border: none;
+    background: none;
+    margin: 0px;
+    width:100px;
+}
+
+.btn-send{
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: none;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right, #03cb91 0%, #00add8 100%);
+}
+
+.social_media{
+    display: flex;
+    justify-content:space-evenly;
+}
